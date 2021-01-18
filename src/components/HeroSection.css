@@ -1,6 +1,6 @@
 .home__hero-section {
   color: #fff;
-  padding: 160px 0;
+  padding: 168px 0;
 }
 
 .home__hero-row {
@@ -68,5 +68,32 @@
 
 .home__hero-img {
   max-width: 95%;
-  margin-top: 0;
+  margin: 0 0 0px 10px;
+  padding-right: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 68px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
 }
