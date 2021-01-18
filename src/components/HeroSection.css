@@ -7,8 +7,6 @@
   align-items: center;
 }
 .row {
-  /* border: 1px solid red; */
-
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
@@ -82,7 +80,6 @@ img {
 
 @media screen and (max-width: 991px) {
   .container {
-    /* border: 1px solid red; */
     padding-left: 20px;
     padding-right: 30px;
   }
@@ -90,6 +87,22 @@ img {
 
 @media screen and (max-width: 768px) {
   .home__hero-text-wrapper {
+    padding-bottom: 68px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .home__hero-text-wrapper {
+    border: 1px solid blue;
+
     padding-bottom: 68px;
   }
 

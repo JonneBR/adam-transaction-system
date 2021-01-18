@@ -43,11 +43,13 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to="/sign-up">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
-                    {buttonLabel}
-                  </Button>
-                </Link>
+                <div className="button-wrapper">
+                  <Link to="/sign-up">
+                    <Button buttonSize="btn--wide" buttonColor="blue">
+                      {buttonLabel}
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col">
