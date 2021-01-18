@@ -1,5 +1,5 @@
 .home__hero-section {
-  /* color: #fff; */
+  color: #fff;
   padding: 160px 0;
 }
 
@@ -25,7 +25,6 @@
 }
 
 .home__hero-text-wrapper {
-  /* border: 1px solid red; */
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
@@ -38,4 +37,36 @@
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+}
+
+.dark {
+  color: #1c2237;
+}
+
+.darkBg {
+  background-color: #1c2237;
+}
+
+.home__hero-subtitle {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.home__hero-img-wrapper {
+  max-width: 555px;
+}
+
+.home__hero-img {
+  max-width: 95%;
+  margin-top: 0;
 }
