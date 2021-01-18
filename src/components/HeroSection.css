@@ -7,6 +7,8 @@
   align-items: center;
 }
 .row {
+  /* border: 1px solid red; */
+
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
@@ -15,7 +17,6 @@
   align-content: stretch;
 }
 .col {
-  /* border: 1px solid red; */
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 15px;
