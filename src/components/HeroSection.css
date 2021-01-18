@@ -1,6 +1,6 @@
 .home__hero-section {
   color: #fff;
-  padding: 168px 0;
+  padding: 220px 0;
 }
 
 .home__hero-row {
@@ -86,6 +86,11 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .home__hero-section {
+    color: #fff;
+    padding: 178px 0;
+  }
+
   .home__hero-text-wrapper {
     padding-bottom: 68px;
   }
@@ -101,8 +106,6 @@ img {
 
 @media screen and (max-width: 585px) {
   .home__hero-text-wrapper {
-    border: 1px solid blue;
-
     padding-bottom: 68px;
   }
 
