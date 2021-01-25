@@ -1,4 +1,5 @@
 .home__hero-section {
+  border: 1px solid red;
   color: #fff;
   padding: 220px 0;
 }
