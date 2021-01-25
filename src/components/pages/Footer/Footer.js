@@ -80,7 +80,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link"
-              to="/"
+              to={'//www.duckduckgo.com/'}
               target="_blank"
               aria-label="Facebook"
             >
