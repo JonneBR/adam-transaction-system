@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import { IoManOutline } from 'react-icons/io5';
 
 function Footer() {
   return (
@@ -71,12 +71,12 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
-              <MdFingerprint className="navbar-icon" />
-              LAVISH
+            <Link to="/" className="navbar-logo">
+              <IoManOutline className="navbar-icon" />
+              ADAM
             </Link>
           </div>
-          <small className="website-rights">LAVISH © 2020</small>
+          <small className="website-rights">ADAM © 2020</small>
           <div className="social-icons">
             <Link
               className="social-icon-link"
